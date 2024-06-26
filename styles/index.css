@@ -38,11 +38,17 @@ html, .section-1{
 }
 
 .section-1 .imageOfSec1 img{
-  border-radius: 50%;
-  width: 15Vw;
-  height: 40Vh;
-  margin:18Vh 0 0 0;
+    border-radius: 50%;
+    width: 20Vw;
+    height: 55Vh;
+    margin:18Vh 50px 0 -150px;
 }
+.section-1 .imageOfSec1 img:hover{
+    border-radius: 50%;
+    width: 25Vw;
+    height: 60Vh;
+    margin:18Vh 75px 0 -155px;
+  }
 .section-1main{
     padding: 500px;
 }
