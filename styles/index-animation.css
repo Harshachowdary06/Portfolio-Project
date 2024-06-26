@@ -1,0 +1,121 @@
+
+/* animation for greetings text.*/
+
+
+.Greetings{
+    font-size: 20px;
+    font-weight: 600;
+    min-width: 280px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.Greetings .greetMsg1{
+    position: relative;
+}
+
+.Greetings .greetMsg1::before{
+    content: "";
+    font-weight: bold;
+    color:var(--text-color);
+    animation: words 150s infinite;
+}
+.Greetings .greetMsg1::after{
+    content: "";
+    position: absolute;
+    width: calc(100% + 8px);
+    height: 100%;
+    background-color: #ffffff;
+    border-left: 2px solid #7fffd4;
+    right: -8px;
+    animation: cursor .8s infinite, typing 20s steps(25) infinite;
+}
+.Greetings .greetMsg2{
+    position: relative;
+}
+
+.Greetings .greetMsg2::before{
+    content: "";
+    font-weight: bold;
+    color:var(--text-color);
+    animation: words2 150s infinite;
+}
+.Greetings .greetMsg2::after{
+    content: "";
+    position: absolute;
+    width: calc(100% + 8px);
+    height: 100%;
+    background-color: #ffffff;
+    border-left: 2px solid #7fffd4;
+    right: -8px;
+    animation: cursor .8s infinite, typing 20s steps(14) infinite;
+}
+.PortfolioPersonName .nameIntro{
+    position: relative;
+}
+
+.PortfolioPersonName .nameIntro::before{
+    content: "";
+    font-weight: bold;
+    font: 1em sans-serif;;
+    color:var(--text-color);
+    animation: words3 150s infinite;
+}
+.PortfolioPersonName .nameIntro::after{
+    content: "";
+    position: absolute;
+    width: calc(100% + 8px);
+    height: 100%;
+    background-color: #ffffff;
+    border-left: 2px solid #7fffd4;
+    right: -8px;
+    animation: cursor .8s infinite, typing 20s steps(14) infinite;
+}
+
+@keyframes cursor {
+    to{
+        border-left: 2px solid #ff7f5000;
+    }
+}
+
+@keyframes words {
+    0%,34%{
+        content: "Hello all!";
+    }
+    34%,67%{
+        content: "¡hola a todos!";
+    }
+    67%,100%{
+        content: "olá a todos!";
+    }
+}
+@keyframes words2 {
+    0%,34%{
+        content: "Delighted to meet you";
+    }
+    34%,67%{
+        content: "Encantada de conocerte";
+    }
+    67%,100%{
+        content: "Prazer em conhecê-lo";
+    }
+}
+@keyframes words3 {
+    0%,34%{
+        content: "I'm";
+    }
+    34%,67%{
+        content: "Soy";
+    }
+    67%,100%{
+        content: "Eu sou";
+    }
+}
+
+@keyframes typing {
+    10%,15%,30%,35%,50%,55%,70%,75%,90%,95%{
+        width: 0;
+    }
+    5%,20%,25%,40%,45%,60%,65%,80%,85%{
+        width: calc(100% + 8px);
+    }
+}
