@@ -17,7 +17,7 @@
     content: "";
     font-weight: bold;
     color:var(--text-color);
-    animation: words 150s infinite;
+    animation: words 100s infinite;
 }
 .Greetings .greetMsg1::after{
     content: "";
@@ -37,7 +37,7 @@
     content: "";
     font-weight: bold;
     color:var(--text-color);
-    animation: words2 150s infinite;
+    animation: words2 100s infinite;
 }
 .Greetings .greetMsg2::after{
     content: "";
@@ -58,7 +58,7 @@
     font-weight: bold;
     font: 1em sans-serif;;
     color:var(--text-color);
-    animation: words3 150s infinite;
+    animation: words3 100s infinite;
 }
 .PortfolioPersonName .nameIntro::after{
     content: "";
