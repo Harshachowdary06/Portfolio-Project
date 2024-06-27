@@ -33,21 +33,22 @@ html, .section-1{
 
 .section-1 .imageOfSec1{
   align-items: center;
-  width: 45Vw;
+  width: 33Vw;
   padding: 0 0 80px 20Vw;
 }
 
 .section-1 .imageOfSec1 img{
     border-radius: 50%;
+    align-items: center;
     width: 20Vw;
     height: 55Vh;
-    margin:18Vh 50px 0 -150px;
+    margin:18Vh 75px 0 -75px;
 }
 .section-1 .imageOfSec1 img:hover{
     border-radius: 50%;
     width: 25Vw;
     height: 60Vh;
-    margin:18Vh 75px 0 -155px;
+    margin:18Vh 65px 0 -75px;
   }
 .section-1main{
     padding: 500px;
