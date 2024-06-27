@@ -1,0 +1,32 @@
+:root{
+
+    --text-color: #666666d6;
+  
+  }
+
+.infoSec{
+    width:100%;
+    height: auto;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 25Vh 0 0 0;
+    color: var(--text-color);
+}
+
+.infoSec .profileImage{
+    float: left;
+}
+.infoSec .profileImage img{
+    width: 350px;
+    height: 500px;
+    border-radius: 50%;
+    margin: 0 0 0 15Vw;
+}
+.infoSec  .data span{
+   font-size: 50px;
+   font-weight: bold;
+   padding-left: 20Vw;
+}
+.infoSec .data .info{
+    content: "maximum retaliation";
+}
+
